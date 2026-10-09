@@ -1,0 +1,220 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images\capgemini.png">
+    <title>Capgemini Online Library Dashboard</title>
+
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 20px;
+        }
+
+        header h1{
+            color: rgb(176, 10, 112);
+            text-align: center;
+        }
+        header p{
+            color: rgb(9, 8, 8);
+            text-align: center;
+        }
+        main img{
+            align-items: center;
+        }
+
+        nav a:hover{
+            color: rgb(190, 178, 17);
+        }
+
+        section h1{
+            color: rgb(196, 14, 111);
+        }
+
+        section h2{
+            color: rgb(20, 126, 126);
+        }
+
+        table{
+            background-color: rgb(170, 154, 134);
+            border-collapse: collapse;
+            box-sizing: content-box;
+            border-color: rgb(48, 21, 130);
+        }
+
+        label{
+            color: rgb(199, 40, 175);
+        }
+
+        label button:hover{
+            color: red;
+            background-color: darkmagenta;
+        }
+        aside h3{
+            color: rgb(45, 137, 137);
+        }
+        
+        footer{
+            text-align: center;
+            text-size-adjust: inherit;
+            color: rgb(184, 24, 24);
+        }
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Capgemini Online Library Management System</h1>
+        <p>Welcome to Online Library,Read,Learn and Grow</p>
+    </header>
+
+    <hr> 
+
+    <nav>
+        <a href="#Categories" id="Categories">Categories</a> |
+        <a href="#booksBooks">Books</a>|
+        <a href="membership.html">Membership</a>
+        <br><br>
+    </nav>
+
+    <hr> 
+    <main>
+        <h1>About Library</h1>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSgYEr6ZkDvdC4WrHOjDDcYMjRvo8182olGTFNUDjLKw&s=10"
+            alt="Library image"
+            height="200px"
+            width="300px"
+            style="float: left; margin-right: 20px;">
+        <p>
+            Welcome to our Online Library Management System
+            and Literature. <br>
+            Users can explore various categories of books and
+            become members of the library.
+            <br>
+            Project Management, and Certification Preparation.
+            This platform helps employees improve their technical
+            and professional skills
+        </p> 
+        <div style="clear: both;"></div>
+
+    </main>
+    <hr>
+    <section>
+        <!--Home-->
+        <h1 id="Categories">Popular Categories</h1>
+        <h2>Available Categories</h2>
+        <ul>
+            <li>Programming</li>
+            <li>Database</li>
+            <li>Web Development</li>
+            <li>Data Science</li>
+        </ul>
+
+        <h2>Learning Path</h2>
+        <ol>
+            <li>Programming</li>
+            <li>Cloud Computing</li>
+            <li>Data Engineering</li>
+            <li>Artificial Intelligence</li>
+            <li>Project Management</li>
+        </ol>
+
+        <h2>Book Definitions</h2>
+
+        <dl>
+
+            <dt>Programming:</dt>
+            <dd>
+                Books related to coding languages such as Java,
+                Python, C++, and JavaScript.
+            </dd>
+
+            <dt>Cloud Computing:</dt>
+            <dd>
+                Books that explain cloud platforms such as
+                Microsoft Azure, AWS, and Google Cloud.
+            </dd>
+
+            <dt>Data Engineering:</dt>
+            <dd>
+                Books focused on data processing, ETL pipelines,
+                databases, Spark, and big data technologies.
+            </dd>
+
+            <dt>Artificial Intelligence:</dt>
+            <dd>
+                Books covering machine learning, deep learning,
+                generative AI, and intelligent systems.
+            </dd>
+
+            <dt>Project Management:</dt>
+            <dd>
+                Books that help manage projects, teams,
+                planning, scheduling, and risk management.
+            </dd>
+
+        </dl>
+    
+        <h2 id="booksBooks" align="center">Available Books</h2>
+        <table border="1" width="100%">
+
+                <tr>
+                    <th>Book ID</th>
+                    <th>Book Name</th>
+                    <th>Author</th>
+                </tr>
+
+                <tr>
+                    <td>1001</td>
+                    <td>HTML Basics</td>
+                    <td>John Smith</td>
+                </tr>
+
+                <tr>
+                    <td>1002</td>
+                    <td>Java Programming</td>
+                    <td>David Miller</td>
+                </tr>
+
+                <tr>
+                    <td>1003</td>
+                    <td>Python Programming</td>
+                    <td>James Wilson</td>
+                </tr>
+
+                <tr>
+                    <td>1004</td>
+                    <td>Azure Fundamentals</td>
+                    <td>Robert Thomas</td>
+                </tr>
+
+        </table>
+             <br>
+        <h2 align="center">Timings</h2>
+        <table border="1" width="100%">
+            <tr>
+                <th colspan="3">Library timings</th>
+            </tr>
+
+            <tr>
+                <td>09:00 AM</td>
+                <td>To</td>
+                <td>09:30 PM</td>
+            </tr>
+        </table>
+    </section>
+
+    <hr>
+    <aside> 
+        <h3 align="center">Notice</h3>
+        <p align="center">New Azure and AI books have been added this month.</p>
+    </aside>
+    
+    <hr>
+    <footer> 
+        <p>@ 2026 Online Library Management of Capgemini</p>
+    </footer>
+
+</body>
+</html>
